@@ -25,14 +25,14 @@ describe("DangerSet", () => {
 			cleanup();
 			render(
 				<DangerSet
-					className="text-t3 text-harris-bblue-400"
+					className="text-t3 text-[blue]"
 					data-testid={DANGER_SET_TEST_ID}
 					html={JSON}
 				/>,
 			);
 
 			const subject = screen.getByTestId(DANGER_SET_TEST_ID);
-			expect(subject).toHaveClass("text-t3 text-harris-bblue-400");
+			expect(subject).toHaveClass("text-t3 text-[blue]");
 		});
 
 		it("nothing if html is missing", () => {
@@ -51,7 +51,7 @@ describe("DangerSet", () => {
 					asProps={{
 						as: "h6",
 						title: "3",
-						className: "text-t1-sm text-harris-bblue-400",
+						className: "text-t1 text-[blue]",
 					}}
 					data-testid={DANGER_SET_TEST_ID}
 					html={JSON}
@@ -59,9 +59,7 @@ describe("DangerSet", () => {
 			);
 			const subject = screen.getByTestId(DANGER_SET_TEST_ID);
 			expect(subject.tagName).toBe("H6");
-			expect(subject).toHaveClass(
-				"text-t1-sm md:text-t3-md lg:text-t3-lg text-harris-bblue-400",
-			);
+			expect(subject).toHaveClass("text-t1 text-[blue]");
 		});
 	});
 });

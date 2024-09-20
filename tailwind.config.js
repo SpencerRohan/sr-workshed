@@ -31,11 +31,14 @@ export default {
 			transparent: "transparent",
 			black: "#000000",
 			white: "#FFFFFF",
+			brand: {
+				vanilla: "#f9ecdc",
+			},
 		},
 		fontSize: {
 			"t1-lg": ["3.625rem", "1.2"], // [58px, 70px]
 			"t1-md": ["3rem", "1.2"], // [48px, 57px]
-			"t1-sm": ["2.375rem", "1.2"], // [38px, 45px]
+			t1: ["2.375rem", "1.2"], // [38px, 45px]
 			t2: ["2.25rem", "1.2"], // [36px, 43px]
 			t3: ["1.75rem", "1.2"], // [28px, 33px]
 			t4: ["1.25rem", "1.5"], // [20px, 30px]
@@ -73,6 +76,10 @@ export default {
 			backgroundColor: {
 				/* Overlays */
 				"overlay-black": "rgba(0,0,0,.5)",
+				paper: "url('/backgrounds/paper.png')",
+				eames: "url('/backgrounds/eames.png')",
+				halftone:
+					"url('https://www.transparenttextures.com/patterns/skewed-print.png')",
 			},
 		},
 	},

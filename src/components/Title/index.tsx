@@ -26,7 +26,7 @@ const Title: FC<TitleProps> = ({
 			{...props}
 			className={cn(
 				{
-					"text-t1-sm md:text-t1-md lg:text-t1-lg": title === "1",
+					"text-t1 md:text-t1-md lg:text-t1-lg": title === "1",
 					"text-t2": title === "2",
 					"text-t3": title === "3",
 					"text-t4": title === "4",

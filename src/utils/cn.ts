@@ -8,7 +8,7 @@ const customTwMerge = extendTailwindMerge({
 			"font-size": [
 				"text-t1-lg",
 				"text-t1-md",
-				"text-t1-sm",
+				"text-t1",
 				"text-t2",
 				"text-t3",
 				"text-t4",

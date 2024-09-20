@@ -12,7 +12,7 @@
 
 	/* Typography */
 	h1:not([class*="text-"]) {
-		@apply text-t1-sm md:text-t1-md lg:text-t1-lg font-semibold;
+		@apply text-t1 md:text-t1-md lg:text-t1-lg font-semibold;
 	}
 
 	h2:not([class*="text-"]) {

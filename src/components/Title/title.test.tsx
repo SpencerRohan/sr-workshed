@@ -25,7 +25,7 @@ const HeadingCollection = () => (
 		<Title
 			as="h2"
 			title="4"
-			className="text-harris-dblue-400 text-center"
+			className="text-[pink] text-center"
 			aria-label="Title with additional settings"
 		>
 			<span>Title w/additional settings</span>
@@ -66,7 +66,7 @@ describe("Title", () => {
 			);
 			const subject = screen.getByTestId(TITLE_TEST_ID);
 			expect(subject).toBeInTheDocument();
-			expect(subject).toHaveClass("text-h6 md:text-t4-md lg:text-t4-lg");
+			expect(subject).toHaveClass("text-h6");
 		});
 
 		conditionalDescribe("snapshot", () => {
