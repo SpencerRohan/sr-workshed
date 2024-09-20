@@ -1,0 +1,24 @@
+import Title from "@components/Title";
+import {
+	Canvas,
+	ColorItem,
+	ColorPalette,
+	Meta,
+	Unstyled,
+} from "@storybook/blocks";
+import { Demo } from "./useAccordion.stories.tsx";
+
+<Meta title="Hooks/UseAccordion" />
+
+<Unstyled>
+	<Title className="mb-4">Custom Hook: useAccordion</Title>
+	<p>React custom hook for defining the accordion pattern</p>
+	<a
+		href="https://www.w3.org/WAI/ARIA/apg/patterns/accordion/examples/accordion"
+		target="_blank"
+	>
+		Accordion Pattern
+	</a>
+</Unstyled>
+
+<Canvas of={Demo} />

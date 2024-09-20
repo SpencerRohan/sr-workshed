@@ -1,0 +1,15 @@
+{
+	"recommendations": [
+		"esbenp.prettier-vscode",
+		"deque-systems.vscode-axe-linter",
+		"nick-rudenko.back-n-forth",
+		"ldd-vs-code.better-package-json",
+		"streetsidesoftware.code-spell-checker",
+		"eamodio.gitlens",
+		"unifiedjs.vscode-mdx",
+		"bradlc.vscode-tailwindcss",
+		"wayou.vscode-todo-highlight",
+		"dbaeumer.vscode-eslint",
+		"xyc.vscode-mdx-preview"
+	]
+}

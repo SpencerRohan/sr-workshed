@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		html {
+			@apply text-[16px] leading-[1.5] h-full text-black font-normal;
+			font-family: "Open Sans", sans-serif;
+		}
+	}
+
+	/* Typography */
+	h1:not([class*="text-"]) {
+		@apply text-t1-sm md:text-t1-md lg:text-t1-lg font-semibold;
+	}
+
+	h2:not([class*="text-"]) {
+		@apply text-t2 font-semibold;
+	}
+
+	h3:not([class*="text-"]) {
+		@apply text-t3 font-semibold;
+	}
+
+	h4:not([class*="text-"]) {
+		@apply text-t4 font-semibold;
+	}
+
+	h5:not([class*="text-"]) {
+		@apply text-t5 font-semibold;
+	}
+
+	h6:not([class*="text-"]) {
+		@apply text-t6 font-semibold;
+	}
+
+	small:not([class*="text-"]) {
+		@apply text-body-sm font-normal;
+	}
+
+	caption:not([class*="text-"]) {
+		@apply text-body-sm font-normal;
+	}
+
+	strong:not([class*="text-"]),
+	b:not([class*="text-"]) {
+		@apply text-body font-bold;
+	}
+}

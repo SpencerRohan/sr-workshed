@@ -1,0 +1,46 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"useDefineForClassFields": true,
+		"lib": ["ES2020", "DOM", "DOM.Iterable"],
+		"module": "ESNext",
+		"skipLibCheck": true,
+
+		/* EWS additions */
+		"declaration": true,
+		"declarationMap": true,
+		"esModuleInterop": true,
+		"outDir": "dist",
+		"sourceMap": true,
+		"allowJs": true,
+		"types": ["@testing-library/jest-dom"],
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"],
+			"@components": ["src/components/*"],
+			"@constants": ["src/constants/*"],
+			"@hooks": ["src/hooks/*"],
+			"@workshedui": ["src/workshedui/*"],
+			"@sandbox": ["src/sandbox/*"],
+			"@styles": ["src/styles/*"],
+			"@types": ["src/types/*"],
+			"@utils": ["src/utils/*"]
+		},
+
+		/* Bundler mode */
+		"moduleResolution": "bundler",
+		"allowImportingTsExtensions": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react-jsx",
+
+		/* Linting */
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true
+	},
+	"include": ["src"],
+	"references": [{ "path": "./tsconfig.node.json" }]
+}

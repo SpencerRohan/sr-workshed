@@ -1,0 +1,25 @@
+import Title from "@components/Title";
+import Link from "@foundations/Link";
+import {
+	Canvas,
+	ColorItem,
+	ColorPalette,
+	Meta,
+	Unstyled,
+} from "@storybook/blocks";
+import { Demo } from "./useDisclosure.stories.tsx";
+
+<Meta title="Hooks/UseDisclosure" />
+
+<Unstyled>
+	<Title className="mb-4">Custom Hook: useDisclosure</Title>
+	<p>React custom hook for defining the disclosure pattern</p>
+	<a
+		href="https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"
+		target="_blank"
+	>
+		Disclosure Pattern
+	</a>
+</Unstyled>
+
+<Canvas of={Demo} />

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title renders snapshot matches 1`] = `
+<DocumentFragment>
+  <h1
+    class="text-t1-sm md:text-t1-md lg:text-t1-lg"
+  >
+    Heading Default
+  </h1>
+  <h1
+    class="text-t1-sm md:text-t1-md lg:text-t1-lg"
+  >
+    Heading h1 / Title 1
+  </h1>
+  <h2
+    class="text-t2-sm md:text-t2-md lg:text-t2-lg"
+  >
+    Heading h2 / Title 2
+  </h2>
+  <h3
+    class="text-t3-sm md:text-t3-md lg:text-t3-lg"
+  >
+    Heading h3 / Title 3
+  </h3>
+  <h4
+    class="text-t4-sm md:text-t4-md lg:text-t4-lg"
+  >
+    Heading h4 / Title 4
+  </h4>
+  <h5
+    class="text-t5"
+  >
+    Heading h5 / Title 5
+  </h5>
+  <h6
+    class="text-t6"
+  >
+    Heading h6 / Title 6
+  </h6>
+  <h1
+    class="text-t2-sm md:text-t2-md lg:text-t2-lg"
+  >
+    Heading h1 / Title 2
+  </h1>
+  <h2
+    aria-label="Title with additional settings"
+    class="text-t4-sm md:text-t4-md lg:text-t4-lg text-harris-dblue-400 text-center"
+  >
+    <span>
+      Title w/additional settings
+    </span>
+  </h2>
+</DocumentFragment>
+`;
