@@ -1,7 +1,7 @@
 {
 	"name": "@spencerrohan/sr-workshed",
 	"private": true,
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"type": "module",
 	"types": "./dist/index.d.ts",
 	"exports": {
@@ -19,7 +19,7 @@
 		"registry": "https://npm.pkg.github.com/"
 	},
 	"scripts": {
-		"publish": "env $(cat .env | grep GITHUB_TOKEN) npm publish",
+		"publish": "dotenv -e .env npm publish",
 		"dev": "vite",
 		"build": "tsc && vite build && npm run build:css",
 		"build:css": "tailwindcss -m -i ./src/styles/tailwind-entry.css -o ./dist/styles.css",
@@ -51,6 +51,7 @@
 		"tailwindcss": "^3.4.4"
 	},
 	"dependencies": {
+		"dotenv-cli": "^7.4.2",
 		"lodash": "^4.17.21",
 		"react-focus-on": "^3.9.3",
 		"tailwind-merge": "^2.3.0"
