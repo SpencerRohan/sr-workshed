@@ -23,7 +23,7 @@ const DemoAccordionPanel = ({
 			{accordionObj.isExpanded && (
 				<div
 					{...accordionObj.getAccordionTargetProps()}
-					className="w-full border border-solid border-harris-gray-300"
+					className="w-full border border-solid border-[gray]"
 				>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

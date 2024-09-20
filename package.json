@@ -1,6 +1,6 @@
 {
 	"name": "@spencerrohan/sr-workshed",
-	"version": "1.0.4",
+	"version": "1.1.0",
 	"type": "module",
 	"types": "./dist/index.d.ts",
 	"exports": {
@@ -10,10 +10,11 @@
 			"types": "./dist/index.d.ts"
 		},
 		"./styles.css": "./dist/styles.css",
-		"./tailwind.config.js": "./tailwind.config.js"
+		"./tailwind-config": "./tailwind.config.js"
 	},
 	"files": [
-		"dist"
+		"dist",
+		"tailwind.config.js"
 	],
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com/"

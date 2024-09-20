@@ -44,7 +44,7 @@ const DemoDisclosure = () => {
 								{...disclosure.getTargetProps()}
 								ref={disclosure.targetRef}
 								onKeyDown={disclosure.handleTargetItemKeyDown}
-								className="border border-harris-gray-400"
+								className="border border-[gray]"
 							>
 								<li>
 									<a href="javascript:">Link 1</a>
