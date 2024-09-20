@@ -1,6 +1,6 @@
 {
 	"name": "@spencerrohan/sr-workshed",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"type": "module",
 	"types": "./dist/index.d.ts",
 	"exports": {
@@ -9,7 +9,8 @@
 			"require": "./dist/workshedui.umd.js",
 			"types": "./dist/index.d.ts"
 		},
-		"./styles.css": "./dist/styles.css"
+		"./styles.css": "./dist/styles.css",
+		"./tailwind.config.js": "./tailwind.config.js"
 	},
 	"files": [
 		"dist"
